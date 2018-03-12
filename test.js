@@ -5,6 +5,7 @@ function test() {
     assert.equal(2 + 2, 4);
     assert.equal(2 + 3, 5);
     assert.equal(4 + 2, 6);
+    assert.equal(3 + 4, 7);
 }
 
 if (module == require.main) require('test').run(test);
